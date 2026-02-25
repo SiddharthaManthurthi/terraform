@@ -18,6 +18,3 @@ data "aws_ami" "joindevops" {
   }
 }
 
-data "aws_instance" "terraform_instance" {
-    instance_id = "i-04d3f6cadef2a27e8"
-}
